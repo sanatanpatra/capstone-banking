@@ -1,0 +1,41 @@
+Post Request Body JSON Format:
+
+{
+  "name": "Dibya",
+  "address": "Rourkela",
+  "bankAccounts": [
+    {
+      "accountNumber": 303,
+      "accountType": "Current"
+    },
+    {
+      "accountNumber": 304,
+      "accountType": "Checking"
+    }
+  ]
+}
+
+
+
+
+PUT Request Body JSON Format:
+
+{
+  "id": 1,
+  "name": "Arindam",
+  "address": "India",
+  "bankAccounts": [
+    {
+      "id": 1,
+      "accountNumber": "1234567890",
+      "accountType": "Updated",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "accountNumber": "0987654321",
+      "accountType": "Updated",
+      "userId": 1
+    }
+  ]
+}
